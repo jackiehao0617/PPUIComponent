@@ -1,0 +1,16 @@
+PODS:
+  - PPUIComponent (0.1.0)
+
+DEPENDENCIES:
+  - PPUIComponent (from `../`)
+
+EXTERNAL SOURCES:
+  PPUIComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PPUIComponent: 64eb852289396808fc3fc1479458e15d048cf7f2
+
+PODFILE CHECKSUM: d6c1ac721b0a3ce3cade06fc76dbafb51a5099d5
+
+COCOAPODS: 1.8.4

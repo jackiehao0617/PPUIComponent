@@ -1,0 +1,6 @@
+framework module PPUIComponent {
+  umbrella header "PPUIComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
