@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CEB81714CAC184FABE2429A4D7C1B81 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17BC2ADE97C6E35F5AF7C010896A217 /* ReplaceMe.swift */; };
+		21CD85FD4D347647069B3919ECBC05AD /* PPBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3446C727F10898DF4154257F7DE6249B /* PPBaseNavigationController.swift */; };
 		26514A24EE8A8CD99C3F2FF2A22FA8F7 /* Pods-PPUIComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A82ECC5518D82DE47B8B0FF84E92946 /* Pods-PPUIComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D09FFE6D9A1660B45D1E6FA78A4B855 /* PPUIComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BBB377FC5654E8541FA30C513E80FA /* PPUIComponent-dummy.m */; };
+		32257187CDCAAFFAAE9B1FCFCBBBADA3 /* PPBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DDDF8195BFCD88D75881DC8998CB20 /* PPBaseTabBarController.swift */; };
 		4287BA442813B6AE0BEFD8A57E7C6813 /* Pods-PPUIComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129FD768C2A689D8A227E53221A30679 /* Pods-PPUIComponent_Tests-dummy.m */; };
 		5D94B332C042EB0338E31823922AD925 /* Pods-PPUIComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 805513747FC5A687F82FA633C12DB54E /* Pods-PPUIComponent_Example-dummy.m */; };
 		601A690DB21B754F61F556597D0B6818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9FED60A37FC71472D1AC60263A153FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A9D1D2B1A7C97E89446C00134CF56BB3 /* PPUIComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6429FEB54AE653DA5CC9E3E607771C /* PPUIComponent-dummy.m */; };
+		B18095E30BA85A78D2D2EFD6D8DD1513 /* PPAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE06B503ED9BF54DB23F7CAC5DCE4B /* PPAlertController.swift */; };
+		B220BF92C62331E8C2323E86AB339D59 /* PPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0A8118D309679807CAFA865AADCAB /* PPBaseViewController.swift */; };
 		C8097326AF8410AFA15CB4C545AF1B9F /* Pods-PPUIComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8EF06D6ECF9743CB0D668E47C1EC2F3 /* Pods-PPUIComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3B7CA7C139C109D46276B927ABC75B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DCA3EDD6DD009ED6C755591CDE6F3BA2 /* PPUIComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 332559D537660DD04F030457EEABBF04 /* PPUIComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC0056FFDC6B3A67A89BF5136C5133CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F6919657C7746D47916FD70DEA0AA5F2 /* PPUIComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA0E665C2941E7996D1C623AC1BEF2F /* PPUIComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,37 +40,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DDDF8195BFCD88D75881DC8998CB20 /* PPBaseTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PPBaseTabBarController.swift; sourceTree = "<group>"; };
 		026DA9508932AFDF191FACE91CDDB5AD /* Pods-PPUIComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPUIComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0AC6C36A61EF64AC1E544CA363C712B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0B140D4A1B0563D66A2C4FADC62053C2 /* Pods-PPUIComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPUIComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10B0A8118D309679807CAFA865AADCAB /* PPBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PPBaseViewController.swift; sourceTree = "<group>"; };
 		129FD768C2A689D8A227E53221A30679 /* Pods-PPUIComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPUIComponent_Tests-dummy.m"; sourceTree = "<group>"; };
+		18FA5E39A0C4F7830B96D019241C3D47 /* PPUIComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPUIComponent.modulemap; sourceTree = "<group>"; };
 		192FEAD4CEBEA4EF80308C80E644EDDD /* Pods-PPUIComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPUIComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1953304432151C09418D4E9A2C515574 /* PPUIComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPUIComponent-prefix.pch"; sourceTree = "<group>"; };
-		2AA2253C119FE60D5BB27631B281E697 /* PPUIComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPUIComponent.modulemap; sourceTree = "<group>"; };
-		3170D008FB2F373E5B261B1F71E55B1E /* PPUIComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPUIComponent-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		332559D537660DD04F030457EEABBF04 /* PPUIComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPUIComponent-umbrella.h"; sourceTree = "<group>"; };
+		3446C727F10898DF4154257F7DE6249B /* PPBaseNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PPBaseNavigationController.swift; sourceTree = "<group>"; };
 		3A82ECC5518D82DE47B8B0FF84E92946 /* Pods-PPUIComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPUIComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		3C9B472968AB3047DEB0A029CD74D7AA /* Pods_PPUIComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPUIComponent_Tests.framework; path = "Pods-PPUIComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4583A088BE8CAE162FE0AB9A36275748 /* PPUIComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPUIComponent-Info.plist"; sourceTree = "<group>"; };
 		4C8A1202F968152EF02FCA7DE1C864C3 /* Pods-PPUIComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPUIComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		676ADF347D29CBDF5BE460096FAA5F3E /* PPUIComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PPUIComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68BBB377FC5654E8541FA30C513E80FA /* PPUIComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPUIComponent-dummy.m"; sourceTree = "<group>"; };
 		69713106813022571CF804BFC80D945B /* Pods-PPUIComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPUIComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		69AE06B503ED9BF54DB23F7CAC5DCE4B /* PPAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PPAlertController.swift; sourceTree = "<group>"; };
+		6D66089F1B822599D17AE06ECFB208A6 /* PPUIComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPUIComponent-prefix.pch"; sourceTree = "<group>"; };
 		74168A28F17E7BF4EA4C29A0D6395F7B /* Pods-PPUIComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPUIComponent_Tests.modulemap"; sourceTree = "<group>"; };
+		7ECDE9FFE6122F4753DFF7AF58E95BBA /* PPUIComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PPUIComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		805513747FC5A687F82FA633C12DB54E /* Pods-PPUIComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPUIComponent_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A20015E135CA0A7E76BF9AD742844314 /* Pods-PPUIComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPUIComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A62470D1D4DF2505FFD3B7B62A855DE2 /* Pods-PPUIComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPUIComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A792592AD4E18E0AD7CF8E09C4619ACA /* Pods-PPUIComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPUIComponent_Example-Info.plist"; sourceTree = "<group>"; };
 		A8EF06D6ECF9743CB0D668E47C1EC2F3 /* Pods-PPUIComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPUIComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B17BC2ADE97C6E35F5AF7C010896A217 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PPUIComponent/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B96B59DEDD2329E3B675AFF62B329C54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BC431A66EC43515E003AE1F63577491E /* Pods_PPUIComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPUIComponent_Example.framework; path = "Pods-PPUIComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D8C02C3FF9B8A65755DBB7E61E81F3 /* PPUIComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPUIComponent.framework; path = PPUIComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6429FEB54AE653DA5CC9E3E607771C /* PPUIComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPUIComponent-dummy.m"; sourceTree = "<group>"; };
+		D4D9A40F7611E821BC5BDB056C0D9ECF /* PPUIComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPUIComponent.xcconfig; sourceTree = "<group>"; };
 		D98F5EFD8141C26CBEBBA1D99F29F190 /* Pods-PPUIComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPUIComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E56BDB71280F60E25820CABE5FB3AFE9 /* PPUIComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPUIComponent.xcconfig; sourceTree = "<group>"; };
+		DBA0E665C2941E7996D1C623AC1BEF2F /* PPUIComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPUIComponent-umbrella.h"; sourceTree = "<group>"; };
+		DC70E22E7CFFE9C2927F867D1778B01A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E69F65DEC26B576B7FD37B298AB69D3D /* Pods-PPUIComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPUIComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF198E6D1E51DBCC7A621ABC21CB7C6C /* Pods-PPUIComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPUIComponent_Tests-Info.plist"; sourceTree = "<group>"; };
+		F9FF3F5A62EDF9A5DB38DFFC022F8982 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FF547EBF6DA61D861FF2E63406E027FD /* Pods-PPUIComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PPUIComponent_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +86,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF43C335EA0E16413735C26C5CFB6808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0056FFDC6B3A67A89BF5136C5133CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEDF26C941845507D445F70F48251152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,23 +102,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA31B46BA719E4665DA7B7288BEABB79 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3B7CA7C139C109D46276B927ABC75B8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07DF26B9D5B5841E6DB418A2360C4897 /* Development Pods */ = {
+		318F5FB2EF652E871BBDF74336BE9CB6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B395A56F1B3CD4257A77AF1A6B1EE162 /* PPUIComponent */,
+				F9FF3F5A62EDF9A5DB38DFFC022F8982 /* LICENSE */,
+				7ECDE9FFE6122F4753DFF7AF58E95BBA /* PPUIComponent.podspec */,
+				DC70E22E7CFFE9C2927F867D1778B01A /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		81687AB226D6D3EF1B458FB58B25F4EC /* Pods-PPUIComponent_Example */ = {
@@ -124,6 +132,20 @@
 			path = "Target Support Files/Pods-PPUIComponent_Example";
 			sourceTree = "<group>";
 		};
+		8AC3B3FAE0EB01DB46140ACC4C15032E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FA5E39A0C4F7830B96D019241C3D47 /* PPUIComponent.modulemap */,
+				D4D9A40F7611E821BC5BDB056C0D9ECF /* PPUIComponent.xcconfig */,
+				68BBB377FC5654E8541FA30C513E80FA /* PPUIComponent-dummy.m */,
+				4583A088BE8CAE162FE0AB9A36275748 /* PPUIComponent-Info.plist */,
+				6D66089F1B822599D17AE06ECFB208A6 /* PPUIComponent-prefix.pch */,
+				DBA0E665C2941E7996D1C623AC1BEF2F /* PPUIComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PPUIComponent";
+			sourceTree = "<group>";
+		};
 		957BD0AC888313BD60945538AE1FF920 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,29 +155,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B395A56F1B3CD4257A77AF1A6B1EE162 /* PPUIComponent */ = {
+		96BC71A621A747A121F7348B3DF966C9 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
-				B17BC2ADE97C6E35F5AF7C010896A217 /* ReplaceMe.swift */,
-				FB85658EE69B7972A8515DB0D2C3C578 /* Pod */,
-				BC39D5D4141079E10EE34CE0E1319A99 /* Support Files */,
+				69AE06B503ED9BF54DB23F7CAC5DCE4B /* PPAlertController.swift */,
 			);
-			name = PPUIComponent;
-			path = ../..;
+			name = Alert;
+			path = PPUIComponent/Classes/Alert;
 			sourceTree = "<group>";
 		};
-		BC39D5D4141079E10EE34CE0E1319A99 /* Support Files */ = {
+		B030572B6EDFFED7CE7511ECECDE5CB4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2AA2253C119FE60D5BB27631B281E697 /* PPUIComponent.modulemap */,
-				E56BDB71280F60E25820CABE5FB3AFE9 /* PPUIComponent.xcconfig */,
-				CF6429FEB54AE653DA5CC9E3E607771C /* PPUIComponent-dummy.m */,
-				3170D008FB2F373E5B261B1F71E55B1E /* PPUIComponent-Info.plist */,
-				1953304432151C09418D4E9A2C515574 /* PPUIComponent-prefix.pch */,
-				332559D537660DD04F030457EEABBF04 /* PPUIComponent-umbrella.h */,
+				D7C6149D8D1D51E49AD21C5563279408 /* PPUIComponent */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PPUIComponent";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC4285E02403D16405CFC7C9923BF42F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3446C727F10898DF4154257F7DE6249B /* PPBaseNavigationController.swift */,
+				00DDDF8195BFCD88D75881DC8998CB20 /* PPBaseTabBarController.swift */,
+				10B0A8118D309679807CAFA865AADCAB /* PPBaseViewController.swift */,
+			);
+			name = Base;
+			path = PPUIComponent/Classes/Base;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -170,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				07DF26B9D5B5841E6DB418A2360C4897 /* Development Pods */,
+				B030572B6EDFFED7CE7511ECECDE5CB4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D64D3BE3FBD0770168641B7AFA1C5C97 /* Products */,
 				957BD0AC888313BD60945538AE1FF920 /* Targets Support Files */,
@@ -195,6 +220,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D7C6149D8D1D51E49AD21C5563279408 /* PPUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				96BC71A621A747A121F7348B3DF966C9 /* Alert */,
+				BC4285E02403D16405CFC7C9923BF42F /* Base */,
+				318F5FB2EF652E871BBDF74336BE9CB6 /* Pod */,
+				8AC3B3FAE0EB01DB46140ACC4C15032E /* Support Files */,
+			);
+			name = PPUIComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		EBE7809FF2F4A6E5EA5CD546FD1EEECC /* Pods-PPUIComponent_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,27 +248,9 @@
 			path = "Target Support Files/Pods-PPUIComponent_Tests";
 			sourceTree = "<group>";
 		};
-		FB85658EE69B7972A8515DB0D2C3C578 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B96B59DEDD2329E3B675AFF62B329C54 /* LICENSE */,
-				676ADF347D29CBDF5BE460096FAA5F3E /* PPUIComponent.podspec */,
-				0AC6C36A61EF64AC1E544CA363C712B3 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23E81BD9CB0F268AAA7CEFC5D1F7561E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCA3EDD6DD009ED6C755591CDE6F3BA2 /* PPUIComponent-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5CFC9BDED24FF4BE62DAA62E7FC0AB7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,17 +267,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D44F18228D91D09F6BED39D34D308D98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6919657C7746D47916FD70DEA0AA5F2 /* PPUIComponent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A09972F6942A1966063AC65E3245E44A /* PPUIComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F18AC5CA540828827C0460C979A852B /* Build configuration list for PBXNativeTarget "PPUIComponent" */;
+			buildConfigurationList = C80DA6AF6E2068947AB65D0863355F84 /* Build configuration list for PBXNativeTarget "PPUIComponent" */;
 			buildPhases = (
-				23E81BD9CB0F268AAA7CEFC5D1F7561E /* Headers */,
-				AB882F6310009BF211E7B72011472C83 /* Sources */,
-				FA31B46BA719E4665DA7B7288BEABB79 /* Frameworks */,
-				B8FF2B63BF03E4C4AF86740C4AC4FEC7 /* Resources */,
+				D44F18228D91D09F6BED39D34D308D98 /* Headers */,
+				225731E82A519D125B9BF988920D4D02 /* Sources */,
+				AF43C335EA0E16413735C26C5CFB6808 /* Frameworks */,
+				D7DE6CF378AD354BEEC2F5CB19CB4A4E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,7 +364,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B8FF2B63BF03E4C4AF86740C4AC4FEC7 /* Resources */ = {
+		D7DE6CF378AD354BEEC2F5CB19CB4A4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,20 +388,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		225731E82A519D125B9BF988920D4D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18095E30BA85A78D2D2EFD6D8DD1513 /* PPAlertController.swift in Sources */,
+				21CD85FD4D347647069B3919ECBC05AD /* PPBaseNavigationController.swift in Sources */,
+				32257187CDCAAFFAAE9B1FCFCBBBADA3 /* PPBaseTabBarController.swift in Sources */,
+				B220BF92C62331E8C2323E86AB339D59 /* PPBaseViewController.swift in Sources */,
+				2D09FFE6D9A1660B45D1E6FA78A4B855 /* PPUIComponent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DAF0A28288AEC45F6D573BF63846DE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4287BA442813B6AE0BEFD8A57E7C6813 /* Pods-PPUIComponent_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB882F6310009BF211E7B72011472C83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9D1D2B1A7C97E89446C00134CF56BB3 /* PPUIComponent-dummy.m in Sources */,
-				0CEB81714CAC184FABE2429A4D7C1B81 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,37 +461,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		49DF5805DC6C259015D69A59A05C6FF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E56BDB71280F60E25820CABE5FB3AFE9 /* PPUIComponent.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PPUIComponent/PPUIComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PPUIComponent/PPUIComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PPUIComponent/PPUIComponent.modulemap";
-				PRODUCT_MODULE_NAME = PPUIComponent;
-				PRODUCT_NAME = PPUIComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -693,9 +692,40 @@
 			};
 			name = Debug;
 		};
-		B194A54C08051E06E235458020E913CF /* Release */ = {
+		93110ED84AFB906C0297FB9A05384EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E56BDB71280F60E25820CABE5FB3AFE9 /* PPUIComponent.xcconfig */;
+			baseConfigurationReference = D4D9A40F7611E821BC5BDB056C0D9ECF /* PPUIComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PPUIComponent/PPUIComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPUIComponent/PPUIComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PPUIComponent/PPUIComponent.modulemap";
+				PRODUCT_MODULE_NAME = PPUIComponent;
+				PRODUCT_NAME = PPUIComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9A12487ABD0429D62FDAE2C0D21236A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D9A40F7611E821BC5BDB056C0D9ECF /* PPUIComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -755,11 +785,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F18AC5CA540828827C0460C979A852B /* Build configuration list for PBXNativeTarget "PPUIComponent" */ = {
+		C80DA6AF6E2068947AB65D0863355F84 /* Build configuration list for PBXNativeTarget "PPUIComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49DF5805DC6C259015D69A59A05C6FF6 /* Debug */,
-				B194A54C08051E06E235458020E913CF /* Release */,
+				93110ED84AFB906C0297FB9A05384EFF /* Debug */,
+				A9A12487ABD0429D62FDAE2C0D21236A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
